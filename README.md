@@ -6,22 +6,22 @@ This project is a web-based system that facilitates seamless sharing and retriev
 
 ## Features
 
-- 📁 Upload and categorize materials by subject and semester
-- 👨‍🏫 Role-based access for faculty and students
-- 🔍 Filter and search materials using course titles or categories
-- 🕒 Tracks upload timestamps for recent materials
-- 📑 Organized material view by department
+- Upload and categorize materials by subject and semester
+- Role-based access for faculty and students
+- Filter and search materials using course titles or categories
+- Tracks upload timestamps for recent materials
+- Organized material view by department
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - HTML, CSS, JavaScript, React, Node Js, Firebase
 
 
 ---
 
-## 🧩 Modules
+##  Modules
 
 - **Login System**: Role-specific login for students and faculty
 - **Upload Interface**: Structured file upload with subject/category mapping
@@ -29,7 +29,8 @@ This project is a web-based system that facilitates seamless sharing and retriev
 - **Student Access**: Filter, view, and download materials by course or department
 
 ---
-
+## Live Demo
+[Visit the App](https://share-nov.netlify.app/)
 
 
 
