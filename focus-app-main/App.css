@@ -1,0 +1,52 @@
+.dropzone {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+
+.dropzone label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #666;
+}
+
+.dropzone ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropzone li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.dropzone li::before {
+  content: "\2022";
+  margin-right: 5px;
+  color: #ccc;
+}
+
+.dropzone:hover,
+.dropzone:focus {
+  background-color: #fff;
+  border-color: #999;
+  outline: none;
+}
+
+.dropzone.active {
+  background-color: #e6f7ff;
+  border-color: #1890ff;
+}
+
+.dropzone.active:hover,
+.dropzone.active:focus {
+  background-color: #fff;
+  border-color: #1890ff;
+}
